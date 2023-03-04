@@ -47,7 +47,7 @@
 		function copyHTML() {
 			var copyText = document.getElementById("lyout");
 			copyText.select();
-			copyText.setSelectionRange(0, 99999);
+			copyText.setSelectionRange(0, 999999);
 			navigator.clipboard.writeText(copyText.value);
 			alert("Copied the HTML");
 		}
